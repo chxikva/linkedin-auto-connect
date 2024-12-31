@@ -18,12 +18,12 @@ Scrolling through multiple result pages and repeating the process.
 
 🛠️ Technologies Used
 
-Python
+```Python
 
 Selenium
 
 WebDriver Manager
-
+```
 📦 Setup Instructions
 
 ✅ 1. Clone the Repository
@@ -61,12 +61,12 @@ pip install -r requirements.txt
 Ensure your linkedin_auto_connect.py script has the correct Chrome binary path:
 
 
-python
+```python
 
 Copy code
 
 options.binary_location = "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"  
-
+```
 🚀 Usage
 
 Run the script:
