@@ -28,17 +28,17 @@ WebDriver Manager
 
 ✅ 1. Clone the Repository
 
-bash
+```bash
 
 Copy code
 
 git clone https://github.com/chxikva/linkedin-auto-connect.git  
 
 cd linkedin-auto-connect  
-
+```
 ✅ 2. Create a Virtual Environment
 
-bash
+```bash
 
 Copy code
 
@@ -47,15 +47,15 @@ python -m venv venv
 source venv/bin/activate  # On macOS/Linux  
 
 venv\Scripts\activate     # On Windows  
-
+```
 ✅ 3. Install Dependencies
 
-bash
+```bash
 
 Copy code
 
 pip install -r requirements.txt  
-
+```
 ✅ 4. Update Script with Chrome Path
 
 Ensure your linkedin_auto_connect.py script has the correct Chrome binary path:
@@ -71,14 +71,14 @@ options.binary_location = "C:\\Program Files\\Google\\Chrome\\Application\\chrom
 
 Run the script:
 
-bash
+```bash
 
 Copy code
 
 python linkedin_auto_connect.py  
 
 Enter your LinkedIn credentials when prompted.
-
+```
 The script will:
 
 Log in to LinkedIn.
@@ -95,18 +95,18 @@ Verify sent invites on your LinkedIn Invitations Page:
 
 Search Keywords: Update the search keyword in the script:
 
-python
+```python
 
 Copy code
 
 driver.get("https://www.linkedin.com/search/results/people/?keywords=human%20resources")  
-
+```
 
 Scroll Limits: Adjust the number of scrolls/pages to visit:
-python
+```python
 Copy code
 PAGE_LIMIT = 5  
-
+```
 🛡️ Security Tips
 Avoid sharing your LinkedIn credentials publicly.
 Do not run the script excessively to prevent account restrictions.
