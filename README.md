@@ -72,8 +72,11 @@ Submit a pull request
 This project is licensed under the MIT License.
 
 📬 Contact
+
 Author: chxikva
-LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/irakli-chkhikvadze-a4972a109/)
+
+LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/irakli-chkhikvadze-a4972a109/)
+
 Feel free to open an issue for feedback or questions!
 
 ⭐ If you find this project useful, please star the repository! ⭐
